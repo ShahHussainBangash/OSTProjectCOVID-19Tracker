@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developer.arsltech.covid_19tracker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".AffectedCountries" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+
+<!--    CoronaVirus App API-->
+
+
+<!--    Assalam o Alaikum Friends in this video, i will teach you how to create coronavirus (COVID-19) android app using REST Api & Volley in android studio.-->
+
+<!--    COVID-19 API Link-->
+<!--    Link ►  https://corona.lmao.ninja/-->
+
+<!--    Simple Arc Loader-->
+<!--    Link ►  https://github.com/generic-leo/Simple...-->
+
+<!--    Simple Arc Loader Tutorial-->
+<!--    Link ►  https://www.youtube.com/watch?v=CoEgp...-->
+
+<!--    Volley-->
+<!--    Link ►  https://developer.android.com/trainin...-->
+
+<!--    Pie Chart-->
+<!--    Link ►  https://github.com/blackfizz/EazeGraph-->
+
+<!--    Join My Facebook Group-->
+<!--    https://www.facebook.com/groups/arsltech-->
+
+<!--    GitHub-->
+<!--    https://github.com/arsltech-->
+
+<!--    Facebook Page-->
+<!--    https://facebook.com/arsltech-->
+
+<!--    Youtube Channel-->
+<!--    https://youtube.com/arsltech-->
+
+<!--    For Bussiness Inquiries-->
+<!--    marslanali789@gmail.com-->
